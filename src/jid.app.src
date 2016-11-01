@@ -1,0 +1,14 @@
+{application, jid,
+ [
+  {description, "An Erlang jid library"},
+  {vsn, "1"},
+  {modules, [
+             jid
+            ]},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {env, []}
+ ]}.
